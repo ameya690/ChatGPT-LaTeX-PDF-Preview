@@ -13,28 +13,10 @@ A browser extension that allows you to easily copy and preview LaTeX equations f
 ## Examples
 
 ### ChatGPT Response
-![ChatGPT Response](chat_response.png)
+![ChatGPT Response](examples/chat_response.png)
 
 ### PDF Preview
-![PDF Preview](pdf_response.png)
-
-## Installation
-
-1. Clone this repository or download the ZIP file
-2. Open Chrome and go to `chrome://extensions/`
-3. Enable "Developer mode" in the top right
-4. Click "Load unpacked" and select the extension directory
-
-## Usage
-
-1. Visit ChatGPT or any supported AI chat platform
-2. When you see LaTeX content in a response:
-   - Click the "Copy LaTeX" button below the response
-   - Use the keyboard shortcut Shift + L
-   - Click the extension icon and use the popup interface
-3. To preview the LaTeX content:
-   - Click the extension icon
-   - Click "Open in Online LaTeX Editor"
+![PDF Preview](examples/pdf_response.png)
 
 ## Files
 
