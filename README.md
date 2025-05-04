@@ -10,10 +10,13 @@ A browser extension that allows you to easily copy and preview LaTeX equations f
 - Support for multiple AI chat platforms (ChatGPT, Claude, Google AI Studio, DeepSeek, X.com)
 - Beautiful and intuitive user interface
 
-## Example
+## Examples
 
 ### ChatGPT Response
 ![ChatGPT Response](examples/chat_response.png)
+
+### PDF Preview
+![PDF Preview](examples/pdf_response.png)
 
 ## Installation
 
