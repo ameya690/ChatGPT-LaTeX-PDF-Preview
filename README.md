@@ -13,10 +13,10 @@ A browser extension that allows you to easily copy and preview LaTeX equations f
 ## Examples
 
 ### ChatGPT Response
-![ChatGPT Response](examples/chat_response.png)
+![ChatGPT Response](examples/chat_response.PNG)
 
 ### PDF Preview
-![PDF Preview](examples/pdf_response.png)
+![PDF Preview](examples/pdf_response.PNG)
 
 ## Files
 
