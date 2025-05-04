@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>ChatGPT LaTeX Clipboard</title>
+  <style>
+    body {
+      width: 250px;
+      padding: 10px;
+      font-family: Arial, sans-serif;
+    }
+    button {
+      width: 100%;
+      padding: 8px;
+      margin-top: 10px;
+      background-color: #10a37f;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #0d8a6c;
+    }
+    .status {
+      margin-top: 10px;
+      padding: 5px;
+      text-align: center;
+      border-radius: 4px;
+    }
+    .success {
+      background-color: #d4edda;
+      color: #155724;
+    }
+    .error {
+      background-color: #f8d7da;
+      color: #721c24;
+    }
+  </style>
+</head>
+<body>
+  <h2>LaTeX Tools</h2>
+  <p>Work with LaTeX from ChatGPT responses:</p>
+  <button id="copyButton">Copy LaTeX to Clipboard</button>
+  <button id="openButton">Open in Online LaTeX Editor</button>
+  <div id="status" class="status"></div>
+  <script src="popup.js"></script>
+</body>
+</html>

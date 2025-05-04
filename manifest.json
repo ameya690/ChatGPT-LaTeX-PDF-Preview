@@ -1,0 +1,36 @@
+{
+    "manifest_version": 3,
+    "name": "ChatGPT LaTeX Clipboard",
+    "version": "1.0",
+    "description": "Copy LaTeX from ChatGPT responses to clipboard",
+    "web_accessible_resources": [
+  {
+    "resources": ["preview.html", "preview.js", "latex/latex.min.js"],
+    "matches": ["<all_urls>"]
+  }
+    ],
+    "content_security_policy": {
+      "extension_pages": "script-src 'self'; object-src 'self'"
+    },
+    "permissions": ["activeTab", "scripting", "clipboardWrite"],
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "16": "icon16.png",
+        "48": "icon48.png",
+        "128": "icon128.png"
+      }
+    },
+    "content_scripts": [
+  {
+    "matches": [
+      "https://chat.openai.com/*",
+      "https://claude.ai/*",
+      "https://aistudio.google.com/*",
+      "https://www.deepseek.com/*",
+      "https://chat.x.com/*"
+    ],
+    "js": ["content.js"]
+  }
+  ]
+}
